@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+
+   <meta charset="UTF-8">
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <meta name="description" content="CRUD JAVA">
+
+   <meta name="author" content="Alexander Leon">
+
+   <title>CRUD JAVA</title>
+
+   <link rel="stylesheet" href="./css/styles.css">
+<body>
+
+      <!--
+        al iniciar el proyecto :       
+        npx json-server -w -p 4444 assets/db.json
+      -->
+
+  <h1>CRUD LOCAL · MUNDO</h1>
+
+      <section class="crud">
+        <article>
+          <h2 class="crud-title">AGREGAR NUEVO PAIS</h2>
+          <form class="crud-form">
+            <input class="input_label" type="text" name="pais" placeholder="Nombre del pais" required>
+            <input class="input_label" type="text" name="capital" placeholder="Nombre del la capital" required>
+            <input class="input_submit" type="submit" value="GUARDAR">
+            <input type="hidden" name="id">
+          </form>
+        </article>
+
+
+        <article class="data-request">
+          <table class="crud-table">
+            <thead>
+              <tr>
+                <th>Pais</th>
+                <th>Capital</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </article>
+      </section>
+
+      <template id="crud-template">
+        <tr>
+          <td class="pais"></td>
+          <td class="capital"></td>
+          <td>
+            <button class="edit">Editar</button>
+            <button class="delete">Eliminar</button>
+          </td>
+        </tr>
+      </template>
+
+      
+    </section> 
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

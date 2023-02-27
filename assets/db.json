@@ -1,0 +1,54 @@
+{
+  "paises": [
+    {
+      "pais": "Colombia",
+      "capital": "Bogota",
+      "id": 1
+    },
+    {
+      "pais": "Afganistán",
+      "capital": "Kabul",
+      "id": 2
+    },
+    {
+      "pais": "Argelia",
+      "capital": "Argel",
+      "id": 3
+    },
+    {
+      "pais": "Argentina",
+      "capital": "Buenos Aires",
+      "id": 4
+    },
+    {
+      "pais": "Rusia",
+      "capital": "\tMoscú",
+      "id": 5
+    },
+    {
+      "pais": "Ucrania",
+      "capital": "Kyiv",
+      "id": 6
+    },
+    {
+      "pais": "Brasil",
+      "capital": "Brasilia",
+      "id": 7
+    },
+    {
+      "pais": "Ecuador",
+      "capital": "\tQuito",
+      "id": 8
+    },
+    {
+      "pais": "México",
+      "capital": "Ciudad de México",
+      "id": 9
+    },
+    {
+      "pais": "Nueva Zelandia",
+      "capital": "Wellington",
+      "id": 10
+    }
+  ]
+}
